@@ -1,0 +1,331 @@
+.wave {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: -1vh;
+    background-image: url('immagini/trama/onda.png');
+}
+
+.img-First {
+    background-image: url('immagini/trama/calza_trama.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stars-3 {
+    width: 15%;
+    left: 80%;
+    top: -40%;
+}
+
+.stars-2 {
+    width: 12%;
+    left: 5%;
+    bottom: 10%;
+}
+
+.XSsticker {
+    width:30%;
+    left: 95%;
+    top:5%;
+}
+
+.XSsticker2 {
+    width:15%;
+    right: 15%;
+    top: -50%;
+}
+
+.c-background{
+    background-image: url('immagini/trama/img_sezBG_complete.png');
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left center;
+    z-index: 2;
+    left: 0;
+}
+
+.read-here {
+    width: 30%;
+    right: 50%;
+    top: 5%;
+}
+
+.click-here {
+    width: 8%;
+    right: 50%;
+    top: 31%;
+}
+
+.star-1 {
+    width: 3.8%;
+    right: 15%;
+    bottom: 43%;
+}
+
+.starr-2 {
+    width: 3.8%;
+    bottom: 7%;
+}
+
+.send-pic {
+    width: 30%;
+    right: 15%;
+    bottom: 10%;
+}
+
+.total-background{
+    background-image: url('immagini/trama/scritta_striscia_D.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.c-height {
+    height: 140vh;
+}
+
+.Lpink-sticker {
+    top:0;
+    aspect-ratio: 1;
+    background-image: url('immagini/trama/sticker-rosa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+}
+
+.Lblue-sticker {
+    top:80%;
+    aspect-ratio:1;
+    right:80px;
+    height:100%;
+    background-image: url('immagini/trama/sticker-blu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+}
+.TS-padding {
+    padding: 0 10%;
+}
+
+.WPsticker {
+    padding: 20% 20% 25% 20%;
+}
+
+.WBsticker {
+    padding: 25% 25% 25% 25%;
+}
+#xs{
+    display: none;
+}
+#md-sm{
+    display: block;
+}
+@media screen and (max-width: 767px) {
+
+    .c-background{
+        height: 70vh;
+        background-position: center;
+        position: relative;
+    }
+
+    .pt-10 {
+        padding-top: 5vh;
+    }
+
+    .pb-20 {
+        padding-bottom: 8vh;
+    }
+
+    .pt-20 {
+        padding-top: 10vh;
+    }
+
+    .stars-3 {
+        width: 40px;
+        left: 80%;
+        top: -30%;
+    }
+
+    .stars-2 {
+        width: 40px;
+        left: 60%;
+        bottom: 5%;
+    }
+
+    .XSsticker {
+        width: 130px;
+        left: 7%;
+        top: 80%;
+    }
+
+    .mobile-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .XSsticker2 {
+        display: none;
+    }
+
+    .wave {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 0;
+        background-image: url('immagini/trama/wave_hor.png');
+        top: -4%;
+    }
+
+    .star-1 {
+        width: 15px;
+        right: 5%;
+        bottom: 40%;
+    }
+
+    .starr-2 {
+        width: 15px;
+        bottom: 5%;
+        margin-left: 6vh;
+    }
+
+    .mobile-margin {
+        margin-left: 4vh;
+    }
+
+    .send-pic {
+        width: 120px;
+        right: 15%;
+        bottom: 3%;
+    }
+
+    .read-here {
+        width: 120px;
+        right: 50%;
+        top: 3%;
+    }
+    .Lpink-sticker {
+        top:0;
+        aspect-ratio: 1;
+        background-image: url('immagini/trama/sticker-rosa.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+    }
+
+    .Lblue-sticker {
+        top:80%;
+        aspect-ratio:1;
+        right:80px;
+        width: 350px;
+        background-image: url('immagini/trama/sticker-blu.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 6vh;
+    }
+
+    .WPsticker {
+        padding: 19% 18% 25% 20%;
+    }
+
+    .WBsticker {
+        padding: 18% 20% 25% 25%;
+    }
+
+
+    .click-here {
+        width: 15%;
+        right: 19%;
+        bottom: 30%;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+
+    .stars-3 {
+        width: 60px;
+        left: 75%;
+        top: -40%;
+    }
+
+    .stars-2 {
+        width: 50px;
+        left: 15%;
+        bottom: 5%;
+    }
+
+    .star-1 {
+        width: 18px;
+        right: 5%;
+        bottom: 40%;
+    }
+
+    .starr-2 {
+        width: 18px;
+        bottom: 5%;
+        margin-left: 6vh;
+    }
+
+    .send-pic {
+        width: 130px;
+        right: 11%;
+        bottom: 3%;
+    }
+
+    .read-here {
+        width: 130px;
+        right: 50%;
+        top: 10%;
+    }
+    .pb-20 {
+        padding-bottom: 12vh;
+    }
+    .Lpink-sticker {
+        top:0;
+        aspect-ratio: 1;
+        background-image: url('immagini/trama/sticker-rosa.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 500px;
+    }
+
+    .Lblue-sticker {
+        top:80%;
+        aspect-ratio:1;
+        right:80px;
+        width: 400px;
+        background-image: url('immagini/trama/sticker-blu.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .click-here {
+        width: 120px;
+        right: 50%;
+        top: 30%;
+    }
+    .WPsticker {
+        padding: 20% 20% 20% 20%;
+    }
+
+    .WBsticker {
+        padding: 20% 25% 25% 25%;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    #xs{
+        display: block;
+    }
+    #md-sm{
+        display: none;
+    }
+
+}
