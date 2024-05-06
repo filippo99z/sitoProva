@@ -15,49 +15,50 @@
 
 <!-- navbar -->
 
-<nav class="navbar navbar-expand-md sticky-top px-md-5 px-4">
+<nav class="navbar navbar-expand-md sticky-top grid-border grid-border-sm">
   <div class="container-fluid px-0">
     <a class="navbar-brand logo py-0" href="index.html"><img class="logo" src="immagini/logo.svg" alt="logo"></a>
-    <button class="navbar-toggler shadow-none border-0 rounded-circle custom-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <button class="navbar-toggler shadow-none border-0 rounded-circle custom-toggler pe-0 py-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header py-2">
-        <h5 class="offcanvas-title logo " id="offcanvasNavbarLabel"><img class="logo" src="immagini/logo.png" alt="logo"></h5>
-        <button type="button" class="shadow-none border-0 py-1 px-2 " data-bs-dismiss="offcanvas" aria-label="Close" >
+      <div class="offcanvas-header grid-border grid-border-sm py-2">
+        <h5 class="offcanvas-title logo " id="offcanvasNavbarLabel"><img class="logo" src="immagini/logo.svg" alt="logo"></h5>
+        <button type="button" class="shadow-none border-0 p-0" data-bs-dismiss="offcanvas" aria-label="Close" >
           <img src="immagini/close.png" class="close-btn">
         </button>
       </div>
       <div class="offcanvas-body align-text-center p-0 flex">
-        <ul class="navbar-nav justify-content-center flex-grow-1">
-          <li class="nav-item mx-md-2 mx-3">
-            <a class="nav-link" href="index.html">HOME</a>
+        <ul class="navbar-nav justify-content-md-around  align-items-md-center justify-content-xl-evenly flex-grow-1 mx-lg-5 mx-md-1 px-lg-3 px-xl-5 px-md-0">
+          <li class="nav-item ms-md-5 me-md-0 grid-border-sm">
+            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
           </li>
           <hr class="my-1">
-          <li class="nav-item mx-md-2 mx-3">
-            <a class="nav-link active" aria-current="page" href="trama.html">TRAMA</a>
+          <li class="nav-item mx-md-0 grid-border-sm">
+            <a class="nav-link active" href="trama.html">TRAMA</a>
           </li>
           <hr class="my-1">
-          <li class="nav-item mx-md-2 mx-3">
-            <a class="nav-link " href="shop.html">PRODOTTI</a>
+          <li class="nav-item mx-md-0  grid-border-sm">
+            <a class="nav-link " href="shop.html">SHOP</a>
           </li>
           <hr class="my-1">
-          <li class="nav-item mx-md-2 mx-3">
+          <li class="nav-item mx-md-0 grid-border-sm">
             <a class="nav-link" href="calza.html">CHE CALZA SEI?</a>
           </li>
           <hr class="my-1">
-          <li class="nav-item mx-md-2 mx-3">
+          <li class="nav-item mx-md-0 grid-border-sm">
             <a class="nav-link"  href="gallery.html">#ONYOURFEET</a>
           </li>
           <hr class="my-1">
-          <li class="nav-item mx-md-2 mx-3">
+          <li class="nav-item me-md-5 ms-md-0 grid-border-sm">
             <a class="nav-link" href="contatti.html">CONTATTI</a>
           </li>
           <hr class="my-1">
         </ul>
-        <ul class="navbar-nav justify-content-end mx-md-0 mx-3 py-md-0 py-2" id="carrello">
-          <li><svg fill="#F21DB9" height="35px" width="35px" version="1.1" id="XMLID_269_" xmlns="http://www.w3.org/2000/svg" viewBox="-2.4 -2.4 28.80 28.80" xml:space="preserve" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.24000000000000005"></g><g id="SVGRepo_iconCarrier"> <g id="shop-cart"> <g> <circle cx="9" cy="21" r="2"></circle> </g> <g> <circle cx="19" cy="21" r="2"></circle> </g> <g> <path d="M21,18H7.2l-4-16H0V0h4.8l0.8,3H24l-3.2,11H8.3l0.5,2H21V18z M7.8,12h11.5l2-7H6L7.8,12z"></path> </g> </g> </g></svg></li>
-        </ul>
+
+        <div id="carrello" class="d-flex align-items-center py-2 py-md-0">
+          <img src="immagini/shopping-cart%20(1).png" class="cart">
+        </div>
       </div>
     </div>
   </div>
@@ -69,29 +70,31 @@
 
 
 <div class="container-fluid">
-  <div class="row pink">
-    <div class="col-md-6 grid-border-left grid-border-sm">
-      <h1 class="inter bolder tBlue pt-10 pb-3"> LA TRAMA</h1>
-      <div class="position-relative">
-        <p class="inter tBlack my-0 p me-md-5 pb-20">
-          Vogliamo rivoluzionare il settore calzettoso con stile, sarcasmo e un pizzico di pazzia.
-          <br> <br>
-          Chi siamo?
-          <br> <br>
-          Eroi che combattono il crimine della noia ai piedi!
-        </p>
-        <img src="immagini/trama/stelline_3.png" alt="" class="position-absolute stars-3 d-lg-block">
-        <img src="immagini/trama/sticker-uniscitiAnoi.png" alt="" class="position-absolute XSsticker z-3">
-        <img src="immagini/trama/stelline_2.png" alt="" class="position-absolute stars-2 d-lg-block">
+  <div class="row pink header">
+    <div class="col-sm-6 grid-border-left grid-border-sm d-flex align-items-center py-3 py-sm-0">
+      <div>
+        <h1 class="inter bolder tBlue pb-3"> LA TRAMA</h1>
+        <div class="position-relative">
+          <p class="inter tBlack my-0 p pe-sm-4">
+            Vogliamo rivoluzionare il settore calzettoso con stile, sarcasmo e un pizzico di pazzia.
+            <br> <br>
+            Chi siamo?
+            <br> <br>
+            Eroi che combattono il crimine della noia ai piedi!
+            Eroi che combattono il crimine della noia ai piedi!
+
+
+
+          </p>
+          <img src="immagini/trama/stelline_3.png" alt="" class="position-absolute stars-3 d-lg-block">
+          <img src="immagini/trama/sticker-uniscitiAnoi.png" alt="" class="position-absolute XSsticker z-3">
+          <img src="immagini/trama/stelline_2.png" alt="" class="position-absolute stars-2 d-lg-block">
+        </div>
       </div>
 
     </div>
-    <div class="col-md-6 px-md-0 background-sm px-0 img-First">
-
-      <div class="wave">
-      </div>
-      <div style="background-image: url('immagini/index/Vector-sm.png');" class="divVector-sm">
-      </div>
+    <div class="col-sm-6 px-md-0 background-sm px-0 img-First">
+      <div class="wave"></div>
     </div>
   </div>
 </div>
@@ -118,19 +121,19 @@
 <!-- seconda sezione-->
 
 <div class="container-fluid">
-  <div class="row pink d-flex mobile-reverse">
-    <div class="col-md-6 px-md-0 px-0 position-relative">
-      <div class="c-background"></div>
+  <div class="row pink d-flex py-3">
+    <div class="col-sm-6 order-2 order-sm-1 px-md-0 px-0 position-relative d-flex align-items-center">
+      <div class="c-background mt-sm-0 mt-3"></div>
     </div>
-    <div class="col-md-6 d-flex align-items-center">
+    <div class="col-sm-6 order-1 order-sm-2 d-flex align-items-center grid-border grid-border-sm ps-md-5 ps-xxl-0 pt-4 pt-sm-0 ps-sm-3">
       <div class="position-relative">
         <img src="immagini/trama/Cread_here.png" alt="" class="position-absolute read-here d-lg-block">
         <img src="immagini/trama/stellina_1.png" alt="" class="position-absolute star-1 d-lg-block">
         <img src="immagini/trama/stellina_1.png" alt="" class="position-absolute starr-2 d-lg-block">
         <img src="immagini/trama/Cmandaci_foto.png" alt="" class="position-absolute send-pic d-lg-block">
-        <div class="pt-20 pb-20 mobile-margin">
-          <h2 class="h1 tBlue fw-bold mb-4">LA NOSTRA STORIA</h2>
-          <p class="p inter tBlack md-5 my-md-2 me-md-5 pe-5">
+        <div class="my-md-5">
+          <h2 class="h1 tBlue fw-bold mb-4 my-4">LA NOSTRA STORIA</h2>
+          <p class="p inter tBlack  my-md-2 my-0">
             Immaginatevi una combinazione tra gli Avengers e un festival di colori, ma con calzini. Creiamo calzini che fanno fare il moonwalk persino a chi non sa cosa significhi!<br><br>
 
             Dalla lavorazione artigianale alla creatività senza limiti, ogni nostro calzino è un'opera d'arte indossabile.<br><br>
@@ -145,7 +148,7 @@
   </div>
   <div class="row position-relative">
     <img src="immagini/trama/sticker-missione.png" alt="" class="position-absolute z-3 XSsticker2">
-    <img src="immagini/trama/onda_horizontal.png" style="padding: 0">
+    <img src="immagini/trama/onda_horizontal.png" alt="" class= "wave-hor">
   </div>
 </div>
 
@@ -183,7 +186,7 @@
 
 <div class="container-fluid fucsia total-background grid-border grid-border-sm" id="md-sm">
     <div class="row">
-      <div class="col-md-7 col-sm-9  d-flex justify-content-center align-items-center flex-column" style="background-image: url('immagini/trama/sticker-rosa.png');background-size: contain;aspect-ratio: 1;background-repeat: no-repeat">
+      <div class="col-md-7 col-sm-9  d-flex justify-content-center align-items-center flex-column Lpink-sticker">
         <div>
 
 
@@ -192,8 +195,8 @@
             Ah, e sì, abbiamo anche calzini che cambiano colore con la temperatura, perché chi ha detto che i piedi non possono essere termosensibili?
           </p>
 
-            <div class="bottone mt-md-3 mt-sm-4  px-md-4 py-2 btn-yellow tBlack" style="margin: auto">
-              <a href="shop.html" style="text-decoration: none; color:#262626">SCOPRILI TUTTI!</a>
+            <div class="bottone c-btn mt-md-3 mt-sm-4  px-md-4 py-2 btn-yellow tBlack">
+              <a href="shop.html">SCOPRILI TUTTI!</a>
             </div>
 
 
@@ -201,8 +204,8 @@
         </div>
       </div>
     </div>
-  <div class="row">
-    <div class="col-md-6 offset-md-6 offset-sm-5 col-sm-7 d-flex justify-content-center align-items-center text-center flex-column" style="background-image: url('immagini/trama/sticker-blu.png');background-size: contain;aspect-ratio: 1;background-repeat: no-repeat;background-position: center center">
+  <div class="row" >
+    <div class="col-md-6 offset-md-6 offset-sm-5 col-sm-7 d-flex justify-content-center align-items-center text-center flex-column Lblue-sticker">
       <div>
 
        <h3 class="tWhite TS-padding">
@@ -216,24 +219,24 @@
   </div>
 
 </div>
-<div class="container-fluid fucsia total-background" id="xs" style="height: auto">
-  <div class="row position-relative " style="overflow-x: hidden">
+<div class="container-fluid fucsia total-background" id="xs">
+  <div class="row position-relative c-overflow">
 
-      <div class="col-12 position-relative d-flex justify-content-center align-items-center" style="left:-20px;aspect-ratio: 1;background-image: url('immagini/trama/sticker-rosa.png');background-size: contain;background-repeat: no-repeat;padding-left: 44px;padding-right: 50px">
+      <div class="col-12 position-relative d-flex justify-content-center align-items-center Spink-sticker">
        <div>
          <p class="inter tBlack text-center">
            Dai calzini arcobaleno per i giorni di sole ai calzini a pois per sentirsi come una star di Hollywood.<br>
            Abbiamo anche calzini che cambiano colore con la temperatura, scoprili tutti!
          </p>
 
-         <div class="bottone px-md-4 py-md-2 btn-yellow tBlack" style="margin: auto">
-           <a href="shop.html" style="text-decoration: none; color:#262626">SCOPRILI TUTTI!</a>
+         <div class="bottone c-btn px-md-4 py-md-2 px-2 py-1  btn-yellow tBlack">
+           <a href="shop.html">SCOPRILI TUTTI!</a>
          </div>
        </div>
 
 
       </div>
-      <div class="col-12 position-relative d-flex justify-content-center align-items-center" style="left:24px;aspect-ratio: 1;background-image: url('immagini/trama/sticker-blu.png');background-size: contain;background-repeat: no-repeat; padding-left: 50px; background-position: center center; padding-right: 48px">
+      <div class="col-12 position-relative d-flex justify-content-center align-items-center">
         <div>
           <h3 class="tWhite">
             La nostra missione?

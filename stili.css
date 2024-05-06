@@ -1,4 +1,5 @@
 @import "font/stylesheet.css";
+
 .grid-border{
     padding-left: 80px;
     padding-right: 80px;
@@ -9,6 +10,9 @@
 }
 .grid-border-right{
     padding-right: 80px;
+}
+.header{
+    min-height: 60vh;
 }
 
 .schoolbell{
@@ -33,7 +37,7 @@ h2{
     font-size: clamp(22px, 3vw,56px);
 }
 body{
-    background-color: #EFB5F2;
+    background-color:#ECF447;
 }
 .purple{
     background-color: #6204BF;
@@ -52,6 +56,9 @@ body{
 }
 .fucsia{
     background-color: #F21DB9
+}
+.pink{
+    background-color: #EFB5F2;
 }
 .fucsia-sm{
     background-color: transparent;
@@ -145,12 +152,11 @@ body{
 
 /* navbar */
 .logo{
-    height: 7vh;
+    height: 50px;
 }
 .navbar{
     background-color: #ECF447;
     border-bottom:4px solid #F21DB9;
-    height: 10vh;
 }
 .navbar a{
     font-size: 1.3vw;
@@ -160,8 +166,10 @@ body{
 }
 .navbar-nav .nav-link.active{
     color: #F21DB9;
-    border-bottom: 2px solid #F21DB9;
-    padding-bottom: 0;
+    text-underline-offset: 8px;
+    text-decoration: underline;
+    text-decoration-color: #F21DB9;
+
 }
 .custom-toggler .navbar-toggler-icon {
     width: 40px;
@@ -178,12 +186,16 @@ button{
 .offcanvas-header{
     border-bottom:4px solid #F21DB9;
     background-color: #ECF447;
-    height: 10vh;
+
 }
 .navbar a:hover {
     -webkit-animation: jello-horizontal 0.9s both;
     animation: jello-horizontal 0.9s both;
     color: #F21DB9;
+}
+.cart{
+    width: 30px;
+    margin:auto;
 }
 /*fine navbar*/
 
@@ -389,12 +401,10 @@ button{
     .center-sm{
         margin: auto;
     }
-    .background-sm{
-        height: 40vh;
-    }
+
     /*css navbar*/
     .logo{
-        height: 6vh;
+        height: 40px;
     }
     .sidebar{
         background-color: #ECF447;
@@ -426,6 +436,11 @@ button{
         display: flex;
 
     }
+    .icona{
+        width: 40px;
+        height: 40px;
+    }
+
     .navbar a:hover {
         -webkit-animation: none;
         animation: none;
@@ -435,6 +450,16 @@ button{
         height: 50vh;
     }
     /*css footer*/
+
+    /*fine css footer*/
+
+
+}
+
+@media screen and (max-width: 575px){
+    .header{
+        height: auto
+    }
     .icona{
         width: 45px;
         height: 45px;
@@ -460,8 +485,7 @@ button{
         animation: jello-horizontal 0.9s both;
         cursor: pointer;
     }
-    /*fine css footer*/
-
-
+    .background-sm{
+        height: 300px;
+    }
 }
-
